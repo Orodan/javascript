@@ -3,7 +3,7 @@ function create() {
   return function (x) { return x + reponse; }
 }
 
-reponse = 100
+reponse = 101
 let a = create()
 console.log(a(12))
 console.log(reponse)
